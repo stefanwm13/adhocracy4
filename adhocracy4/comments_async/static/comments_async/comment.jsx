@@ -375,7 +375,7 @@ export default class Comment extends React.Component {
               <div className={this.state.anchored ? 'a4-comments__box--comment a4-comments__box--highlighted' : 'a4-comments__box--comment'}>
                 <div className="col-12">
                   <span className="sr-only">{translated.categories}</span>
-                  {this.renderCategories()}
+                  {/* {this.renderCategories()} */}
                 </div>
               </div>
             </div>
