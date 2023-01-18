@@ -38,14 +38,14 @@
                         {% if project.is_draft %}
                             {% translate 'Preview' %}
                         {% else %}
-                            {% translate 'View' %}
+                            {% translate 'View123' %}
                         {% endif %}
                     </a>
 
                     <a href="{% url 'a4dashboard:project-edit' project_slug=project.slug %}"
                        class="btn btn--light btn--small">
                         <i class="fas fa-pencil-alt" aria-hidden="true"></i>
-                        {% translate 'Edit' %}
+                        {% translate 'Edit123' %}
                     </a>
 
                     <form method="post">

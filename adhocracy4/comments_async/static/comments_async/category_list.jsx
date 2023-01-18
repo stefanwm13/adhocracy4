@@ -15,14 +15,14 @@ const CategoryList = (props) => (
       return (
         <div className="a4-comments__category" key={objectKey}>
           <label className="a4-comments__category__row" htmlFor={inputId}>
-            <input
+            {/* <input
               className="a4-comments__category__input"
               type="checkbox"
               checked={props.categoriesChecked.indexOf(objectKey) > -1}
               onChange={props.handleControlFunc}
               id={inputId}
               value={categoryCheck}
-            />
+            /> */}
             <span className={categoryClass}> {categoryCheck}</span>
           </label>
         </div>
