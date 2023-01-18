@@ -8,7 +8,7 @@ import * as config from '../../../static/config'
 import Alert from '../../../static/Alert'
 
 const translated = {
-  yourComment: django.gettext('Your comment'),
+  yourComment: django.gettext('Your comment123'),
   yourReply: django.gettext('Your reply'),
   characters: django.gettext(' characters'),
   post: django.gettext('post'),
