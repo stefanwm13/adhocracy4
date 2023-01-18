@@ -26,7 +26,7 @@ const translated = {
   report: django.gettext(' Report'),
   showModStatement: django.gettext('Show moderator\'s feedback'),
   hideModStatement: django.gettext('Hide moderator\'s feedback'),
-  deleteComment: django.gettext('Do you really want to delete this comment?'),
+  deleteComment: django.gettext('Do you really want to delete this comment123?'),
   delete: django.gettext('Delete'),
   abort: django.gettext('Abort'),
   deletedyByCreatorOn: django.gettext('Deleted by creator on'),
